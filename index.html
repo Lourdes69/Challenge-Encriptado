@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lag= "es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet"> 
+	<title>Changelle - Ecriptador </title>
+</head>
+<body>
+	<header>
+		<h1> <img class="logo" src="imagenes/logo.png" alt="Logo de Alura"></h1>
+	</header>
+
+	<main>
+		<section>
+			<textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui" autofocus required></textarea>			
+			
+			<h6 class="informacion"> ⚠ Solo letras minúsculas y sin acento </h6>
+			
+		<div class="botones">
+          	<button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+			<button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+        </div>
+        		</section>
+		
+	<section>
+	<textarea class="mensaje" cols="20" rows="10">  </textarea> 
+	<div>
+	<button class="copiar" onclick="copy()">Copiar </button>
+	</div>
+	</section>
+</main>
+<footer>
+	<p class="pie-pagina">  &#4326 Lourdes Avalos - 2023</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
